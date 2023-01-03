@@ -1,0 +1,8 @@
+take notes
+Inline element
+>They always start in same line
+>only occupy the space which is required by content
+
+Block_level element
+>they always start in new line
+>they occupy whole width of screen irresprective of content
