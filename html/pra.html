@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email validation</title>
+</head>
+<body>
+    <input type="text" id="em" placeholder="enter email"><br>
+    <label id="lbt" style="color:red;visibility:hidden">invalid</label><br>
+    <button type="button" onclick="fun()">submit</button>
+    <script type="text/javascript">
+  let email=document.getElementById("em").value
+        // ajayadsule5@gmail.com
+        let regex=/^([a-zA-Z0-1\.-_]+)@([a-zA-Z0-9]+)@([a-zA-Z0-9-_]+).([a-z0-9A-Z])$/
+        function fun(){    
+            if(regex.test(email)){
+            document.getElementById("lbt").innerHTML="valid"
+            document.getElementById("lbt").style.color="green"
+            document.getElementById("lbt").style.visibility="visible"
+        }
+        else{
+            document.getElementById("lbt").innerHTML="invalid"
+            document.getElementById("lbt").style.color="red"
+            document.getElementById("lbt").style.visibility="visible"
+        }
+        }
+     
+    </script>
+</body>
+</html>
