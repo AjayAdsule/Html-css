@@ -1,0 +1,17 @@
+#header{
+    height: 50px;
+    width: 100%;
+    border: 2px solid red;
+}
+#content{
+    height: 500px;
+    width: 100%;
+    border: 2px solid blue;
+    margin-top: 2%;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    border: 2px solid green;
+    margin-top: 1%;
+}
